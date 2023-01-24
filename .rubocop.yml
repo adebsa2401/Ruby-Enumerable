@@ -5,7 +5,7 @@ AllCops:
     - "Rakefile"
     - "node_modules/**/*"
 
-  DisplayCopNames: false
+  DisplayCopNames: true
 
 Layout/LineLength:
   Max: 120
