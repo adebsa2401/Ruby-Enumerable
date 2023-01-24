@@ -14,6 +14,6 @@ jobs:
           ruby-version: ">=3.1.x"
       - name: Setup Rubocop
         run: |
-          gem install
+          bundle install
       - name: Rubocop Report
         run: rubocop --color
